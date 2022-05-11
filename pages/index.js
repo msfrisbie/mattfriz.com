@@ -1,23 +1,28 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
+    <div>
+      <div
+        className="hidden md:block absolute top-0 left-0 bg-cover bg-no-repeat bg-right"
+        style={{
+          backgroundImage: `url(${arizona_cover})`,
+          width: "100vw",
+          height: "100vh",
+          zIndex: "-1",
+        }}
+      ></div>
+  
+      <div
+        className="block md:hidden absolute top-0 left-0 bg-cover bg-no-repeat bg-center"
+        style={{
+          backgroundImage: `url(${arizona_mobile})`,
+          width: "100vw",
+          height: "100vh",
+          zIndex: "-1",
+        }}
+      ></div>
+  
+      <div></div>
     </div>
   )
 }
