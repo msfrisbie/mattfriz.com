@@ -18,13 +18,13 @@ export default function Boilerplate({ children }) {
 
       <Script strategy="lazyOnload">
         {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'G-0ETS0H9HMM', {
-                    page_path: window.location.pathname,
-                    });
-                `}
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-0ETS0H9HMM', {
+          page_path: window.location.pathname,
+          });
+      `}
       </Script>
 
       <CustomNavbar />
