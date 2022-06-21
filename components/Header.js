@@ -1,40 +1,73 @@
 import Head from "next/head";
+import Script from "next/script";
 
 export default function Header({ title, description, url }) {
   return (
-    <Head>
-      <title key="title">
-        Matt Frisbie | Software Engineer, Bestselling Author
-      </title>
+    <>
+      <Head>
+        <title key="title">
+          Matt Frisbie | Software Engineer, Bestselling Author
+        </title>
 
-      <link key="canonical" rel="canonical" href={url} />
+        <link key="canonical" rel="canonical" href={url} />
 
-      <meta key="description" name="description" content={description} />
+        <meta key="description" name="description" content={description} />
 
-      {/* Twitter Card data */}
-      <meta key="twitter_card" name="twitter:card" content="summary" />
-      <meta key="twitter_site" name="twitter:site" content="@mattfriz" />
-      <meta key="twitter_title" name="twitter:title" content={title} />
-      <meta
-        key="twitter_description"
-        name="twitter:description"
-        content={description}
-      />
-      <meta key="twitter_creator" name="twitter:creator" content="@mattfriz" />
-      {/* Twitter Summary card images must be at least 120x120px */}
-      <meta key="twitter_image" name="twitter:image" content="/arizona.webp" />
+        {/* Twitter Card data */}
+        <meta key="twitter_card" name="twitter:card" content="summary" />
+        <meta key="twitter_site" name="twitter:site" content="@mattfriz" />
+        <meta key="twitter_title" name="twitter:title" content={title} />
+        <meta
+          key="twitter_description"
+          name="twitter:description"
+          content={description}
+        />
+        <meta
+          key="twitter_creator"
+          name="twitter:creator"
+          content="@mattfriz"
+        />
+        {/* Twitter Summary card images must be at least 120x120px */}
+        <meta
+          key="twitter_image"
+          name="twitter:image"
+          content="/arizona.webp"
+        />
 
-      {/* Open Graph data */}
-      <meta key="og_title" property="og:title" content={title} />
-      <meta key="og_type" property="og:type" content="article" />
-      <meta key="og_url" property="og:url" content={url} />
-      <meta key="og_image" property="og:image" content="/arizona.webp" />
-      <meta
-        key="og_description"
-        property="og:description"
-        content={description}
-      />
-      <meta key="og_sitename" property="og:site_name" content="mattfriz.com" />
-    </Head>
+        {/* Open Graph data */}
+        <meta key="og_title" property="og:title" content={title} />
+        <meta key="og_type" property="og:type" content="article" />
+        <meta key="og_url" property="og:url" content={url} />
+        <meta key="og_image" property="og:image" content="/arizona.webp" />
+        <meta
+          key="og_description"
+          property="og:description"
+          content={description}
+        />
+        <meta
+          key="og_sitename"
+          property="og:site_name"
+          content="mattfriz.com"
+        />
+
+        <Script
+          strategy="lazyOnload"
+          src={"https://www.googletagmanager.com/gtag/js?id=G-0ETS0H9HMM"}
+        />
+
+        <Script strategy="lazyOnload">
+          dangerouslySetInnerHTML=
+          {{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+    
+              gtag('config', 'G-0ETS0H9HMM');
+            `,
+          }}
+        </Script>
+      </Head>
+    </>
   );
 }

@@ -2,7 +2,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 export default function CustomNavbar() {
   return (
-    <Navbar bg="light" expand="lg" className="px-2">
+    <Navbar bg="light" expand="lg" className="px-3">
       <Container className="flex-row w-full" style={{ height: "initial" }}>
         <Navbar.Brand href="/">Matt Frisbie</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

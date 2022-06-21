@@ -1,5 +1,21 @@
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    // Remove old tracking pieces
+    if (!!window.location.search) {
+      window.location.href =
+        window.location.origin +
+        window.location.pathname +
+        window.location.hash;
+    } else if (window.location.href.includes("#/outbursts")) {
+      window.location.href = window.location.href.replace(
+        "#/outbursts",
+        "pieces"
+      );
+    }
+  });
+
   return (
     <div>
       {/* <div
@@ -21,8 +37,8 @@ export default function Home() {
           zIndex: "-1",
         }}
       ></div> */}
-  
+
       <div></div>
     </div>
-  )
+  );
 }
