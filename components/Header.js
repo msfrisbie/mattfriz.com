@@ -5,9 +5,7 @@ export default function Header({ title, description, url }) {
   return (
     <>
       <Head>
-        <title key="title">
-          Matt Frisbie | Software Engineer, Bestselling Author
-        </title>
+        <title key="title">{title}</title>
 
         <link key="canonical" rel="canonical" href={url} />
 
