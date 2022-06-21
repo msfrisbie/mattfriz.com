@@ -8,7 +8,7 @@ export default function Boilerplate({ children }) {
       <Header
         title="Matt Frisbie | Software Engineer, Bestselling Author"
         url="https://www.mattfriz.com"
-        description="Matt Frisbie | Software Engineer, Bestselling Author"
+        description="The complete reference for building modern browser extensions in Chrome, Firefox, Edge, and Safari."
       ></Header>
 
       <Script
