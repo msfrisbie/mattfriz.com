@@ -25,13 +25,21 @@ export default function Header({ title, description, url }) {
           content="@mattfriz"
         />
         {/* Twitter Summary card images must be at least 120x120px */}
-        <meta key="twitter_image" name="twitter:image" content="/arizona.jpg" />
+        <meta
+          key="twitter_image"
+          name="twitter:image"
+          content="https://www.mattfriz.com/arizona.jpg"
+        />
 
         {/* Open Graph data */}
         <meta key="og_title" property="og:title" content={title} />
         <meta key="og_type" property="og:type" content="article" />
         <meta key="og_url" property="og:url" content={url} />
-        <meta key="og_image" property="og:image" content="/arizona.jpg" />
+        <meta
+          key="og_image"
+          property="og:image"
+          content="https://www.mattfriz.com/arizona.jpg"
+        />
         <meta
           key="og_description"
           property="og:description"
