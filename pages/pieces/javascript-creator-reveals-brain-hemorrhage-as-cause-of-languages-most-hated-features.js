@@ -5,9 +5,11 @@ import React from "react";
 const HatedFeatures = () => (
   <PieceLayout>
     <Header
-      title="JavaScript Creator Reveals Brain Hemorrhage As..."
-      description="JavaScript Creator Reveals Brain Hemorrhage As Cause Of
-    Language's Most Hated Features"
+      title="JavaScript Creator Reveals Brain Hemorrhage As Cause Of
+      Language's Most Hated Features"
+      description="The distinguished software engineer revealed that the worst
+      parts of the language were actually borne out of delusions caused by a
+      bleed in his brain."
       url="https://www.mattfriz.com/pieces/javascript-creator-reveals-brain-hemorrhage-as-cause-of-languages-most-hated-features"
     ></Header>
 

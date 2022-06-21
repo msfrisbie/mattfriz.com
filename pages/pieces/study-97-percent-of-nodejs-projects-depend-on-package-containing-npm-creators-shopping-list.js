@@ -5,9 +5,12 @@ import React from "react";
 const ShoppingList = () => (
   <PieceLayout>
     <Header
-      title="Study: 97% Of NodeJS Projects Depend On Package..."
-      description="Study: 97% Of NodeJS Projects Depend On Package Containing npm Creator's
-    Shopping List"
+      title="Study: 97% Of NodeJS Projects Depend On Package Containing npm Creator's
+      Shopping List"
+      description="Nearly every package in existence has a direct or
+      indirect dependency on 'shopping-list', which is nothing more than a text
+      file written by npm creator Isaac Schlueter listing things he needed to
+      buy from the supermarket in mid-October of 2010"
       url="https://www.mattfriz.com/pieces/study-97-percent-of-nodejs-projects-depend-on-package-containing-npm-creators-shopping-list"
     ></Header>
 

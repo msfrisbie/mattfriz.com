@@ -5,9 +5,10 @@ import React from "react";
 const OpenHomeOffice = () => (
   <PieceLayout>
     <Header
-      title="Open Home Office (YC S17) Raises $7M To..."
-      description="Open Home Office (YC S17) Raises $7M To Bring Office Distractions To
-    Remote Workers Nationwide"
+      title="Open Home Office (YC S17) Raises $7M To Bring Office Distractions To
+      Remote Workers Nationwide"
+      description="Enjoy working from home, but yearn for the interminable
+      stimulation and irritation of an open office? There's an app for that."
       url="https://www.mattfriz.com/pieces/open-home-office-raises-7m-to-bring-office-distractions-to-remote-workers-nationwide"
     ></Header>
 

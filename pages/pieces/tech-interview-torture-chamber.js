@@ -6,7 +6,9 @@ const TortureChamber = () => (
   <PieceLayout>
     <Header
       title="Tech Interview Torture Chamber"
-      description="Tech Interview Torture Chamber"
+      description="I see your background is in artificial intelligence, you've written your
+      own compiler, and you maintain an open source project - how nice. Now
+      implement radix sort using only red-black trees."
       url="https://www.mattfriz.com/pieces/tech-interview-torture-chamber"
     ></Header>
     <h1>Tech Interview Torture Chamber</h1>

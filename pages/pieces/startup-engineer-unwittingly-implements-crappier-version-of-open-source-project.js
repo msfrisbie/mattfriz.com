@@ -5,15 +5,17 @@ import React from "react";
 const CrappierOpenSource = () => (
   <PieceLayout>
     <Header
-      title="Startup Engineer Unwittingly Implements Crappier Version..."
-      description="Startup Engineer Unwittingly Implements Crappier Version of Open Source
-        Project"
+      title="Startup Engineer Unwittingly Implements Much Crappier Version of Open Source
+      Project"
+      description="Bay area software engineer Kevin Wright discovered Tuesday
+      morning that the library he spent the last four days implementing was an
+      unintentional rehash of an existing and far superior open source project."
       url="https://www.mattfriz.com/pieces/startup-engineer-unwittingly-implements-crappier-version-of-open-source-project"
     ></Header>
 
     <h1>
-      Startup Engineer Unwittingly Implements Crappier Version of Open Source
-      Project
+      Startup Engineer Unwittingly Implements Much Crappier Version of Open
+      Source Project
     </h1>
     <h4>September 13, 2016</h4>
 

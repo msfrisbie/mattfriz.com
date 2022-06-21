@@ -5,9 +5,12 @@ import React from "react";
 const EroticRefactor = () => (
   <PieceLayout>
     <Header
-      title="Software Engineer Entertains Erotic Fantasy About Rewriting..."
-      description="Startup Engineer Unwittingly Implements Crappier Version of Open Source
-        Project"
+      title="Software Engineer Entertains Erotic Fantasy About Rewriting Entire
+      Codebase From Scratch"
+      description="Fullstack engineer
+      David Kemp indulged himself for a brief moment early Wednesday morning in
+      a smutty fictional narrative where he scraps the entire codebase and
+      rebuilds it exactly as he pleases."
       url="https://www.mattfriz.com/pieces/software-engineer-entertains-erotic-fantasy-about-rewriting-entire-codebase-from-scratch"
     ></Header>
 

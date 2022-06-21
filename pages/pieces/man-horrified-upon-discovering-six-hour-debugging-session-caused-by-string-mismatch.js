@@ -5,9 +5,11 @@ import React from "react";
 const StringMismatch = () => (
   <PieceLayout>
     <Header
-      title="Man Horrified Upon Discovering Six Hour Debugging..."
-      description="Man Horrified Upon Discovering Six Hour Debugging Session Caused By String
-    Mismatch"
+      title="Man Horrified Upon Discovering Six Hour Debugging Session Caused By String
+      Mismatch"
+      description="The expedition began at roughly 10 A.M.
+      this morning, when Waterman's initial assessment of the error messages was
+      that it would be a quick and unremarkable fix."
       url="https://www.mattfriz.com/pieces/man-horrified-upon-discovering-six-hour-debugging-session-caused-by-string-mismatch"
     ></Header>
 

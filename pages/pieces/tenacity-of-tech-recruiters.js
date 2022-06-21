@@ -6,7 +6,7 @@ const RecruiterEmail = () => (
   <PieceLayout>
     <Header
       title="The Tenacity of Tech Recruiters"
-      description="The Tenacity of Tech Recruiters"
+      description="Hey there, LinkedIn keyword search result!"
       url="https://www.mattfriz.com/pieces/tenacity-of-tech-recruiters"
     ></Header>
 

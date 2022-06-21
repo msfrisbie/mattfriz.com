@@ -5,9 +5,11 @@ import React from "react";
 const LunchProposal = () => (
   <PieceLayout>
     <Header
-      title="ECMA TC39 Committee Proposal For Where They Will..."
-      description="ECMA TC39 Committee Proposal For Where They Will Go Out To Lunch Reaches
-    Stage 4"
+      title="ECMA TC39 Committee Proposal For Where They Will Go Out To Lunch Reaches
+      Stage 4"
+      description="Fragmentation between the Sandwich
+      Party and the Gyros Party seemed irreparable, and it appeared that the
+      proposal would perish in Stage 3 deadlock."
       url="https://www.mattfriz.com/pieces/ecma-tc39-committee-proposal-for-where-they-will-go-out-to-lunch-reaches-stage-4"
     ></Header>
 

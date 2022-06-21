@@ -5,9 +5,11 @@ import React from "react";
 const TrendyFramework = () => (
   <PieceLayout>
     <Header
-      title="Midsize Startup Impulsively Adopts Trendy JS Framework..."
-      description="Midsize Startup Impulsively Adopts Trendy JS Framework in Effort to
-    Rectify Insurmountable Technical Debt"
+      title="Midsize Startup Impulsively Adopts Trendy JS Framework"
+      description="In a flailing attempt at reining in the company's frontend
+      atrocity, technical cofounder Elliot Chandler revealed on Friday his
+      decision to flush the majority of the company's client-side codebase down
+      the proverbial toilet."
       url="https://www.mattfriz.com/pieces/midsize-startup-impulsively-adopts-trendy-js-framework"
     ></Header>
 
