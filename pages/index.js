@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div>
-      <div
+      {/* <div
         className="hidden md:block absolute top-0 left-0 bg-cover bg-no-repeat bg-right"
         style={{
           backgroundImage: `url(${arizona_cover})`,
@@ -20,7 +20,7 @@ export default function Home() {
           height: "100vh",
           zIndex: "-1",
         }}
-      ></div>
+      ></div> */}
   
       <div></div>
     </div>
