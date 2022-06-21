@@ -10,7 +10,10 @@ export default function Boilerplate({ children }) {
         description="Matt Frisbie | Software Engineer, Bestselling Author"
       ></Header>
       <CustomNavbar />
-      <main>{children}</main>
+      {children}
+      <footer className="flex flex-col items-center justify-center p-8 text-sm text-gray-300">
+        Copyright Matt Frisbie 2022
+      </footer>
     </>
   );
 }

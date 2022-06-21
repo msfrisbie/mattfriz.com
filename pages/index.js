@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { useEffect } from "react";
+import arizona_mobile from "../public/assets/images/arizona_mobile.webp";
 
 export default function Home() {
   useEffect(() => {
@@ -17,28 +19,49 @@ export default function Home() {
   });
 
   return (
-    <div>
-      {/* <div
-        className="hidden md:block absolute top-0 left-0 bg-cover bg-no-repeat bg-right"
-        style={{
-          backgroundImage: `url(${arizona_cover})`,
-          width: "100vw",
-          height: "100vh",
-          zIndex: "-1",
-        }}
-      ></div>
-  
-      <div
-        className="block md:hidden absolute top-0 left-0 bg-cover bg-no-repeat bg-center"
-        style={{
-          backgroundImage: `url(${arizona_mobile})`,
-          width: "100vw",
-          height: "100vh",
-          zIndex: "-1",
-        }}
-      ></div> */}
+    <div className="flex flex-col items-center gap-16">
+      <div className="relative w-48 h-48 sm:w-64 sm:h-64 mt-12">
+        <Image
+          className="rounded-full"
+          src={arizona_mobile}
+          alt={"Matt Frisbie"}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
 
-      <div></div>
+      <div className="flex flex-col items-center gap-1">
+        <div className="text-4xl">MATT FRISBIE</div>
+
+        <div className="text-gray-500">
+          Software engineer and bestselling author
+        </div>
+      </div>
+
+      <div className="flex flex-col items-stretch text-center gap-1">
+        <div className="text-gray-300">POPULAR</div>
+        <a
+          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          href="https://buildingbrowserextensions.com"
+          target="blank"
+        >
+          Building Browser Extensions
+        </a>
+
+        <a
+          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          href="/pieces/tenacity-of-tech-recruiters"
+        >
+          Tenacity of Tech Recruiters
+        </a>
+
+        <a
+          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          href="/pieces/tech-interview-torture-chamber"
+        >
+          Tech Interview Torture Chamber
+        </a>
+      </div>
     </div>
   );
 }
