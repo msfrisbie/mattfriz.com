@@ -11,10 +11,10 @@ const StringMismatch = () => (
       url="https://www.mattfriz.com/pieces/man-horrified-upon-discovering-six-hour-debugging-session-caused-by-string-mismatch"
     ></Header>
 
-    <h2>
+    <h1>
       Man Horrified Upon Discovering Six Hour Debugging Session Caused By String
       Mismatch
-    </h2>
+    </h1>
     <h4>May 5, 2017</h4>
 
     <hr />

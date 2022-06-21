@@ -11,10 +11,10 @@ const HatedFeatures = () => (
       url="https://www.mattfriz.com/pieces/javascript-creator-reveals-brain-hemorrhage-as-cause-of-languages-most-hated-features"
     ></Header>
 
-    <h2>
+    <h1>
       EXCLUSIVE: JavaScript Creator Reveals Brain Hemorrhage As Cause Of
       Language's Most Hated Features
-    </h2>
+    </h1>
     <h4>May 18, 2017</h4>
 
     <hr />

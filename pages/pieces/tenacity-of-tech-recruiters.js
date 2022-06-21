@@ -10,7 +10,7 @@ const RecruiterEmail = () => (
       url="https://www.mattfriz.com/pieces/tenacity-of-tech-recruiters"
     ></Header>
 
-    <h2>The Tenacity of Tech Recruiters</h2>
+    <h1>The Tenacity of Tech Recruiters</h1>
 
     <hr />
 

@@ -11,10 +11,10 @@ const OpenHomeOffice = () => (
       url="https://www.mattfriz.com/pieces/open-home-office-raises-7m-to-bring-office-distractions-to-remote-workers-nationwide"
     ></Header>
 
-    <h2>
+    <h1>
       Open Home Office (YC S17) Raises $7M To Bring Office Distractions To
       Remote Workers Nationwide
-    </h2>
+    </h1>
     <h4>June 21, 2017</h4>
 
     <hr />

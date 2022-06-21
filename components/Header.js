@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Script from "next/script";
 
 export default function Header({ title, description, url }) {
   return (
@@ -26,17 +25,13 @@ export default function Header({ title, description, url }) {
           content="@mattfriz"
         />
         {/* Twitter Summary card images must be at least 120x120px */}
-        <meta
-          key="twitter_image"
-          name="twitter:image"
-          content="/arizona.webp"
-        />
+        <meta key="twitter_image" name="twitter:image" content="/arizona.jpg" />
 
         {/* Open Graph data */}
         <meta key="og_title" property="og:title" content={title} />
         <meta key="og_type" property="og:type" content="article" />
         <meta key="og_url" property="og:url" content={url} />
-        <meta key="og_image" property="og:image" content="/arizona.webp" />
+        <meta key="og_image" property="og:image" content="/arizona.jpg" />
         <meta
           key="og_description"
           property="og:description"
@@ -47,24 +42,6 @@ export default function Header({ title, description, url }) {
           property="og:site_name"
           content="mattfriz.com"
         />
-
-        <Script
-          strategy="lazyOnload"
-          src={"https://www.googletagmanager.com/gtag/js?id=G-0ETS0H9HMM"}
-        />
-
-        <Script strategy="lazyOnload">
-          dangerouslySetInnerHTML=
-          {{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-    
-              gtag('config', 'G-0ETS0H9HMM');
-            `,
-          }}
-        </Script>
       </Head>
     </>
   );

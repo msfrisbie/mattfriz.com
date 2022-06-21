@@ -11,10 +11,10 @@ const TrendyFramework = () => (
       url="https://www.mattfriz.com/pieces/midsize-startup-impulsively-adopts-trendy-js-framework"
     ></Header>
 
-    <h2>
+    <h1>
       Midsize Startup Impulsively Adopts Trendy JS Framework in Effort to
       Rectify Insurmountable Technical Debt
-    </h2>
+    </h1>
     <h4>February 20, 2017</h4>
 
     <hr />

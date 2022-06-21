@@ -55,7 +55,7 @@ export default function Publications() {
         description="Publications by Matt Frisbie"
       ></Header>
 
-      {/* <div className="text-center text-5xl mb-16">PUBLICATIONS</div> */}
+      <h1 className="text-center text-5xl mb-16">PUBLICATIONS</h1>
 
       <div className="flex flex-col items-center gap-20">
         {publications.map((publicationData) => (

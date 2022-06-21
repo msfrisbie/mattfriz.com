@@ -11,10 +11,10 @@ const EroticRefactor = () => (
       url="https://www.mattfriz.com/pieces/software-engineer-entertains-erotic-fantasy-about-rewriting-entire-codebase-from-scratch"
     ></Header>
 
-    <h2>
+    <h1>
       Software Engineer Entertains Erotic Fantasy About Rewriting Entire
       Codebase From Scratch
-    </h2>
+    </h1>
     <h4>May 26, 2017</h4>
 
     <hr />

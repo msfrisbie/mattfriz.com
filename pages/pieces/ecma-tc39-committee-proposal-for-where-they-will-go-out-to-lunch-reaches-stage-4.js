@@ -11,10 +11,10 @@ const LunchProposal = () => (
       url="https://www.mattfriz.com/pieces/ecma-tc39-committee-proposal-for-where-they-will-go-out-to-lunch-reaches-stage-4"
     ></Header>
 
-    <h2>
+    <h1>
       ECMA TC39 Committee Proposal For Where They Will Go Out To Lunch Reaches
       Stage 4
-    </h2>
+    </h1>
     <h4>July 14, 2017</h4>
 
     <hr />

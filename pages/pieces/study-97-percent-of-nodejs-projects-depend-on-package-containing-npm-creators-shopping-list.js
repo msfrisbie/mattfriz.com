@@ -11,10 +11,10 @@ const ShoppingList = () => (
       url="https://www.mattfriz.com/pieces/study-97-percent-of-nodejs-projects-depend-on-package-containing-npm-creators-shopping-list"
     ></Header>
 
-    <h2>
+    <h1>
       Study: 97% Of NodeJS Projects Depend On Package Containing npm Creator's
       Shopping List
-    </h2>
+    </h1>
     <h4>May 7, 2017</h4>
 
     <hr />

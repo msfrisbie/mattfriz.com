@@ -22,6 +22,7 @@ export default function Home() {
     <div className="flex flex-col items-center gap-16">
       <div className="relative w-48 h-48 sm:w-64 sm:h-64 mt-12">
         <Image
+          priority
           className="rounded-full"
           src={arizona_mobile}
           alt={"Matt Frisbie"}
@@ -31,7 +32,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col items-center gap-1">
-        <div className="text-4xl">MATT FRISBIE</div>
+        <h1 className="text-4xl">MATT FRISBIE</h1>
 
         <div className="text-gray-500">
           Software engineer and bestselling author

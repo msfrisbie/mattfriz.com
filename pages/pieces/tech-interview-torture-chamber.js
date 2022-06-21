@@ -9,7 +9,7 @@ const TortureChamber = () => (
       description="Tech Interview Torture Chamber"
       url="https://www.mattfriz.com/pieces/tech-interview-torture-chamber"
     ></Header>
-    <h2>Tech Interview Torture Chamber</h2>
+    <h1>Tech Interview Torture Chamber</h1>
     <hr />
     <div className="text-2xl py-2">The Application Page</div>
     <p>

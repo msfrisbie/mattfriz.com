@@ -11,10 +11,10 @@ const CrappierOpenSource = () => (
       url="https://www.mattfriz.com/pieces/startup-engineer-unwittingly-implements-crappier-version-of-open-source-project"
     ></Header>
 
-    <h2>
+    <h1>
       Startup Engineer Unwittingly Implements Crappier Version of Open Source
       Project
-    </h2>
+    </h1>
     <h4>September 13, 2016</h4>
 
     <hr />
