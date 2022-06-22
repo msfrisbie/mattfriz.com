@@ -6,9 +6,9 @@ export default function Boilerplate({ children }) {
   return (
     <>
       <Header
-        title="Matt Frisbie | Software Engineer, Bestselling Author"
+        title="Matt Frisbie"
         url="https://www.mattfriz.com"
-        description="The complete reference for building modern browser extensions in Chrome, Firefox, Edge, and Safari."
+        description="Software engineer, bestselling author"
       ></Header>
 
       <Script
