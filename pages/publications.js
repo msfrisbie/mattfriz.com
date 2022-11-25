@@ -2,15 +2,15 @@ import Header from "@components/Header";
 import PublicationItem from "@components/PublicationItem";
 import angular2CookbookCover from "../public/assets/images/angular-2-cookbook.webp";
 import angularCookbookCover from "../public/assets/images/angularjs-web-application-development-cookbook.webp";
-import buildingBrowserExtensionsCover from "../public/assets/images/building-browser-extensions.webp";
+import buildingBrowserExtensionsCover from "../public/assets/images/bbx_cover_resized.jpg";
 import introductionToModernClientSideProgrammingCover from "../public/assets/images/introduction-to-modern-client-side-programming.webp";
 import learningAngularjsCover from "../public/assets/images/learning-angularjs.webp";
 import maintainingWebApplicationsCover from "../public/assets/images/maintaining-web-applications.webp";
-import professionalJavaScriptForWebDevelopersCover from "../public/assets/images/professional-javascript-for-web-developers-4e.webp";
+import professionalJavaScriptForWebDevelopersCover from "../public/assets/images/professional-javascript-for-web-developers-4e_resized.webp";
 
 const publications = [
   {
-    url: "https://www.buildingbrowserextensions.com",
+    url: "https://www.amazon.com/gp/product/148428724X",
     image: buildingBrowserExtensionsCover,
     title: "Building Browser Extensions",
     bookClass: "tall-three-d",
