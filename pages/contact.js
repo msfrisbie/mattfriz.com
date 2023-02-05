@@ -14,11 +14,14 @@ export default function Contact() {
           <>
             <div className="flex flex-row items-center gap-2">
               <input
+                id="email"
                 type="checkbox"
                 checked={checked}
                 onChange={(e) => setChecked(e.target.checked)}
               />
-              <span>I promise to use this email address only for good</span>
+              <label for="email">
+                I promise to use this email address only for good
+              </label>
             </div>
             {checked && (
               <Button
