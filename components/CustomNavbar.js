@@ -12,6 +12,7 @@ export default function CustomNavbar() {
             <Nav className="me-auto">
               <Nav.Link href="/publications">Publications</Nav.Link>
               <Nav.Link href="/pieces">Less Serious Publications</Nav.Link>
+              <Nav.Link href="/media">Media</Nav.Link>
               <Nav.Link href="https://github.com/msfrisbie" target="_blank">
                 Github
               </Nav.Link>
