@@ -43,10 +43,10 @@ export default function Home() {
         <div className="text-gray-300">POPULAR</div>
         <a
           className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
-          href="https://buildingbrowserextensions.com"
+          href="https://mattfrisbie.substack.com/"
           target="blank"
         >
-          Building Browser Extensions
+          Substack
         </a>
 
         <a
