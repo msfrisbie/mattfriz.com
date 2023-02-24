@@ -62,6 +62,13 @@ export default function Home() {
         >
           Tech Interview Torture Chamber
         </a>
+
+        <a
+          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          href="/pieces/open-home-office-raises-7m-to-bring-office-distractions-to-remote-workers-nationwide"
+        >
+          Open Home Office
+        </a>
       </div>
     </div>
   );
