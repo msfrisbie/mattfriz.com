@@ -1,6 +1,8 @@
 import Header from "@components/Header";
 import PieceLayout from "@components/PieceLayout";
+import Image from "next/image";
 import React from "react";
+import a16z from "../../public/assets/images/a16z.png";
 
 const OpenHomeOffice = () => (
   <PieceLayout>
@@ -75,6 +77,27 @@ const OpenHomeOffice = () => (
       WiFi-enabled spritzer bottles that automatically dispense alongside
       sneezing or coughing audio.
     </p>
+
+    <hr />
+
+    <p className="text-lg font-bold">Update:</p>
+
+    <p>
+      For a period of about 6 months after this was initally published, the
+      Andreessen Horowitz page on Crunchbase{" "}
+      <a href="https://web.archive.org/web/20170714013529/https://www.crunchbase.com/organization/andreessen-horowitz">
+        proudly featured Open Home Office as part of its vaunted portfolio
+      </a>
+      .
+    </p>
+
+    <div>
+      <Image
+        priority
+        src={a16z}
+        alt={"Andreessen Horowitz Crunchbase Portfolio"}
+      />
+    </div>
 
     <hr />
   </PieceLayout>
