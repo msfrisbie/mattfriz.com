@@ -250,6 +250,10 @@ const TortureChamber = () => (
     </p>
     <p>"So yeah, we need a decision from you by tomorrow."</p>
     <hr />
+    <a href="https://news.ycombinator.com/item?id=13814282" target="_blank">
+      Hacker News discussion
+    </a>
+    <hr />
   </PieceLayout>
 );
 

@@ -120,6 +120,10 @@ const RecruiterEmail = () => (
       Mosk
     </p>
     <hr />
+    <a href="https://news.ycombinator.com/item?id=13834360" target="_blank">
+      Hacker News discussion
+    </a>
+    <hr />
   </PieceLayout>
 );
 
