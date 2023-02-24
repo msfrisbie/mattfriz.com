@@ -86,7 +86,7 @@ const OpenHomeOffice = () => (
       For a period of about 6 months after this was initally published, the
       Andreessen Horowitz page on Crunchbase{" "}
       <a href="https://web.archive.org/web/20170714013529/https://www.crunchbase.com/organization/andreessen-horowitz">
-        proudly featured Open Home Office as part of its vaunted portfolio
+        proudly featured Open Home Office as part of its august portfolio
       </a>
       .
     </p>
