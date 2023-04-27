@@ -18,6 +18,31 @@ export default function Media() {
         >
           <div className="flex flex-col gap-4">
             <a
+              href="https://www.youtube.com/watch?v=FwOmtBo8sBU"
+              target="_blank"
+              className="text-2xl"
+            >
+              Matt Frisbie, Founder CEO of Track &amp; Trace Tools | Cannabis
+              Talk 101
+            </a>
+
+            <div>
+              Matt Frisbie joins Joe and Blue on Cannabis Talk 101 to discuss
+              Metrc and the future of the cannabis industry.
+            </div>
+
+            <iframe
+              height="315"
+              src="https://www.youtube.com/embed/FwOmtBo8sBU"
+              title="Matt Frisbie, Founder &amp; CEO of Track &amp; Trace Tools™! | Cannabis Talk 101"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <a
               href="https://www.se-radio.net/2023/02/episode-552-matt-frisbie-on-browser-extensions/"
               target="_blank"
               className="text-2xl"
