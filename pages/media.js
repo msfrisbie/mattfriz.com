@@ -22,8 +22,8 @@ export default function Media() {
               target="_blank"
               className="text-2xl"
             >
-              Matt Frisbie, Founder CEO of Track &amp; Trace Tools | Cannabis
-              Talk 101
+              Matt Frisbie, Founder of Track &amp; Trace Tools | Cannabis Talk
+              101
             </a>
 
             <div>
