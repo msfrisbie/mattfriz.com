@@ -18,6 +18,30 @@ export default function Media() {
         >
           <div className="flex flex-col gap-4">
             <a
+              href="https://www.youtube.com/watch?v=cIGESSm39n4"
+              target="_blank"
+              className="text-2xl"
+            >
+              HOW Browser Extensions Steal Your Data | NBTV
+            </a>
+
+            <div>
+              Matt Frisbie joins Naomi Brockwell on NBTV to discuss building the
+              world's most dangerous browser extension.
+            </div>
+
+            <iframe
+              height="315"
+              src="https://www.youtube.com/embed/cIGESSm39n4"
+              title="HOW Browser Extensions Steal Your Data | NBTV"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <a
               href="https://www.youtube.com/watch?v=FwOmtBo8sBU"
               target="_blank"
               className="text-2xl"
@@ -35,9 +59,9 @@ export default function Media() {
               height="315"
               src="https://www.youtube.com/embed/FwOmtBo8sBU"
               title="Matt Frisbie, Founder &amp; CEO of Track &amp; Trace Tools™! | Cannabis Talk 101"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
 
@@ -93,9 +117,9 @@ export default function Media() {
               height="315"
               src="https://www.youtube.com/embed/-kRdXMV3OrI"
               title="YouTube video player"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
         </div>

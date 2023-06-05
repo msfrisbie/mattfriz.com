@@ -6,9 +6,16 @@ import buildingBrowserExtensionsCover from "../public/assets/images/bbx_cover_re
 import introductionToModernClientSideProgrammingCover from "../public/assets/images/introduction-to-modern-client-side-programming.webp";
 import learningAngularjsCover from "../public/assets/images/learning-angularjs.webp";
 import maintainingWebApplicationsCover from "../public/assets/images/maintaining-web-applications.webp";
+import pjwd5eCover from "../public/assets/images/pjwd-5e.png";
 import professionalJavaScriptForWebDevelopersCover from "../public/assets/images/professional-javascript-for-web-developers-4e_resized.webp";
 
 const publications = [
+  {
+    url: "https://www.amazon.com/Professional-JavaScript-Developers-Matt-Frisbie/dp/1394193211",
+    image: pjwd5eCover,
+    title: "Professional JavaScript for Web Developers - 5th edition",
+    bookClass: "three-d",
+  },
   {
     url: "https://www.amazon.com/gp/product/148428724X",
     image: buildingBrowserExtensionsCover,
