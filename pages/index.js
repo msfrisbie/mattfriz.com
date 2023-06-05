@@ -20,6 +20,12 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center gap-16">
+      <Header
+        title="Matt Frisbie | mattfriz.com"
+        url="https://www.mattfriz.com"
+        description="Software Engineer and Bestselling Author"
+      ></Header>
+
       <div className="relative w-48 h-48 sm:w-64 sm:h-64 mt-12">
         <Image
           priority
