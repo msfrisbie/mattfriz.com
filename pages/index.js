@@ -1,3 +1,4 @@
+import Header from "@components/Header";
 import Image from "next/image";
 import { useEffect } from "react";
 import arizona_mobile from "../public/assets/images/arizona_mobile.webp";

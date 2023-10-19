@@ -18,6 +18,61 @@ export default function Media() {
         >
           <div className="flex flex-col gap-4">
             <a
+              href="https://www.youtube.com/watch?v=uxlGvnPPqzo"
+              target="_blank"
+              className="text-2xl"
+            >
+              Cannabinoid Connect #387: Matt Frisbie of Track &amp;Trace Tools
+              Tackles Metrc's Tracking Woes with Open-Source Solution
+            </a>
+
+            <div>
+              Matt Frisbie is the founder of Track & Trace Tools, the most
+              popular open source platform in the cannabis industry. Trusted by
+              over 1,000 companies, Track &amp; Trace Tools is a free Chrome
+              extension that uniquely integrates with Metrc. It allows cannabis
+              companies to easily submit Metrc reports, gain full access to
+              their locked-down Metrc data, and wield an unrestricted Metrc API.
+            </div>
+
+            <iframe
+              height="315"
+              src="https://www.youtube.com/embed/uxlGvnPPqzo"
+              title="387: Matt Frisbie of Track &amp; Trace Tools Tackles Metrc's Tracking Woes with Open-Source Solution"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <a
+              href="https://www.youtube.com/watch?v=qdkdpEIOpL8"
+              target="_blank"
+              className="text-2xl"
+            >
+              Chillinois Podcast #331 - What you might expect from the Illinois
+              switch from BioTrack to Metrc
+            </a>
+
+            <div>
+              In this episode, I speak to a guest about what the cannabis
+              consumers and cannabis business owners might be able to expect
+              from the switch from Biotrack to Metrc.
+            </div>
+
+            <iframe
+              height="315"
+              src="https://www.youtube.com/embed/qdkdpEIOpL8"
+              title="Chillinois Podcast #331 - What you might expect from the Illinois switch from BioTrack to Metrc"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <a
               href="https://www.youtube.com/watch?v=cIGESSm39n4"
               target="_blank"
               className="text-2xl"
