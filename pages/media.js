@@ -16,6 +16,29 @@ export default function Media() {
           className="px-8 flex flex-col items-stretch gap-16"
           style={{ maxWidth: "720px" }}
         >
+        <div className="flex flex-col gap-4">
+          <a
+            href="https://www.youtube.com/watch?v=8P-Sc8ZaViY"
+            target="_blank"
+            className="text-2xl"
+          >
+            Chrome Extensions: Learning the basics, AI and more with Matt Frisbie
+          </a>
+
+          <div>
+          Hear from Google Developer Expert and author of the book Building Browser Extensions, Matt Frisbie, alongside Developer Relations Engineers Oliver Dunk and Patrick Kettner as they discuss the state of the extensions platform and what they’d like to see in the future.
+          </div>
+
+          <iframe
+            height="315"
+            src="https://www.youtube.com/embed/8P-Sc8ZaViY"
+            title="Chrome Extensions: Learning the basics, AI and more with Matt Frisbie"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
+        </div>
+
           <div className="flex flex-col gap-4">
             <a
               href="https://www.youtube.com/watch?v=uxlGvnPPqzo"
