@@ -16,28 +16,33 @@ export default function Media() {
           className="px-8 flex flex-col items-stretch gap-16"
           style={{ maxWidth: "720px" }}
         >
-        <div className="flex flex-col gap-4">
-          <a
-            href="https://www.youtube.com/watch?v=8P-Sc8ZaViY"
-            target="_blank"
-            className="text-2xl"
-          >
-            Chrome Extensions: Learning the basics, AI and more with Matt Frisbie
-          </a>
+          <div className="flex flex-col gap-4">
+            <a
+              href="https://www.youtube.com/watch?v=8P-Sc8ZaViY"
+              target="_blank"
+              className="text-2xl"
+            >
+              Chrome Extensions: Learning the basics, AI and more with Matt
+              Frisbie
+            </a>
 
-          <div>
-          Hear from Google Developer Expert and author of the book Building Browser Extensions, Matt Frisbie, alongside Developer Relations Engineers Oliver Dunk and Patrick Kettner as they discuss the state of the extensions platform and what they’d like to see in the future.
+            <div>
+              Hear from Google Developer Expert and author of the book Building
+              Browser Extensions, Matt Frisbie, alongside Developer Relations
+              Engineers Oliver Dunk and Patrick Kettner as they discuss the
+              state of the extensions platform and what they’d like to see in
+              the future.
+            </div>
+
+            <iframe
+              className="w-full aspect-video"
+              src="https://www.youtube.com/embed/8P-Sc8ZaViY"
+              title="Chrome Extensions: Learning the basics, AI and more with Matt Frisbie"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
           </div>
-
-          <iframe
-            height="315"
-            src="https://www.youtube.com/embed/8P-Sc8ZaViY"
-            title="Chrome Extensions: Learning the basics, AI and more with Matt Frisbie"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          ></iframe>
-        </div>
 
           <div className="flex flex-col gap-4">
             <a
@@ -59,7 +64,7 @@ export default function Media() {
             </div>
 
             <iframe
-              height="315"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/uxlGvnPPqzo"
               title="387: Matt Frisbie of Track &amp; Trace Tools Tackles Metrc's Tracking Woes with Open-Source Solution"
               frameBorder="0"
@@ -85,7 +90,7 @@ export default function Media() {
             </div>
 
             <iframe
-              height="315"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/qdkdpEIOpL8"
               title="Chillinois Podcast #331 - What you might expect from the Illinois switch from BioTrack to Metrc"
               frameBorder="0"
@@ -109,7 +114,7 @@ export default function Media() {
             </div>
 
             <iframe
-              height="315"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/cIGESSm39n4"
               title="HOW Browser Extensions Steal Your Data | NBTV"
               frameBorder="0"
@@ -134,7 +139,7 @@ export default function Media() {
             </div>
 
             <iframe
-              height="315"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/FwOmtBo8sBU"
               title="Matt Frisbie, Founder &amp; CEO of Track &amp; Trace Tools™! | Cannabis Talk 101"
               frameBorder="0"
@@ -192,7 +197,7 @@ export default function Media() {
             </div>
 
             <iframe
-              height="315"
+              className="w-full aspect-video"
               src="https://www.youtube.com/embed/-kRdXMV3OrI"
               title="YouTube video player"
               frameBorder="0"

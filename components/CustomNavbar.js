@@ -14,7 +14,7 @@ export default function CustomNavbar() {
               <Nav.Link href="/pieces">Less Serious Publications</Nav.Link>
               <Nav.Link href="/media">Media</Nav.Link>
               <Nav.Link href="https://github.com/msfrisbie" target="_blank">
-                Github
+                GitHub
               </Nav.Link>
               <Nav.Link href="https://twitter.com/mattfriz" target="_blank">
                 Twitter
