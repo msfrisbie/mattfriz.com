@@ -33,8 +33,8 @@ export default function Home() {
           className="rounded-full"
           src={arizona_mobile}
           alt={"Matt Frisbie"}
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
         />
       </div>
 
@@ -49,7 +49,7 @@ export default function Home() {
       <div className="flex flex-col items-stretch text-center gap-1">
         <div className="text-gray-300">POPULAR</div>
         <a
-          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          className="!no-underline !text-gray-600 bg-gray-100 p-2 rounded-md border-none"
           href="https://mattfrisbie.substack.com/"
           target="blank"
         >
@@ -57,21 +57,21 @@ export default function Home() {
         </a>
 
         <a
-          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          className="!no-underline !text-gray-600 bg-gray-100 p-2 rounded-md border-none"
           href="/pieces/tenacity-of-tech-recruiters"
         >
           Tenacity of Tech Recruiters
         </a>
 
         <a
-          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          className="!no-underline !text-gray-600 bg-gray-100 p-2 rounded-md border-none"
           href="/pieces/tech-interview-torture-chamber"
         >
           Tech Interview Torture Chamber
         </a>
 
         <a
-          className="no-underline text-gray-600 bg-gray-100 p-2 rounded-md border-1"
+          className="!no-underline !text-gray-600 bg-gray-100 p-2 rounded-md border-none"
           href="/pieces/open-home-office-raises-7m-to-bring-office-distractions-to-remote-workers-nationwide"
         >
           Open Home Office

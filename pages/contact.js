@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Button } from "react-bootstrap";
 
 export default function Contact() {
@@ -6,7 +6,7 @@ export default function Contact() {
   const [yesChecked, setYesChecked] = useState(false);
   const [noChecked, setNoChecked] = useState(false);
 
-  const email = atob("bXNmcmlzYmllQGdtYWlsLmNvbQ==");
+  const email = atob("bWF0dEBjbGFzc3Zzb2Z0d2FyZS5jb20=");
 
   return (
     <>

@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @import "~bootstrap/scss/bootstrap-utilities";
 @import "~bootstrap/scss/bootstrap-reboot";
@@ -8,7 +6,6 @@
 @import "~bootstrap/scss/_nav";
 @import "~bootstrap/scss/_navbar";
 @import "~bootstrap/scss/_transitions";
-
 
 @import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
 
