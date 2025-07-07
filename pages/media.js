@@ -18,6 +18,29 @@ export default function Media() {
         >
           <div className="flex flex-col gap-4">
             <a
+              href="https://www.youtube.com/watch?v=yIoy4vNWbbE"
+              target="_blank"
+              className="text-2xl"
+            >
+              The Unreasonable Effectiveness of Malicious Browser Extensions On-demand Webinar - Seraphic Security
+            </a>
+
+            <div>
+            This is an eye-opening webinar where we exposed how malicious browser extensions have become a powerful tool for cybercriminals, often slipping past traditional security measures undetected. Our guest speaker, Matt Frisbie, analyzes real-world incidents—including Cyberhaven, ChromeLoader, PDF Toolbox, and Dataspii—showing how attackers have weaponized extensions to exfiltrate data, hijack browser activity, and gain persistent access to systems.
+            </div>
+
+            <iframe
+              className="w-full aspect-video"
+              src="https://www.youtube.com/embed/yIoy4vNWbbE"
+              title="The Unreasonable Effectiveness of Malicious Browser Extensions On-demand Webinar - Seraphic Security"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <a
               href="https://www.youtube.com/watch?v=8P-Sc8ZaViY"
               target="_blank"
               className="text-2xl"

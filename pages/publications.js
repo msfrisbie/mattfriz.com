@@ -2,7 +2,8 @@ import Header from "@components/Header";
 import PublicationItem from "@components/PublicationItem";
 import angular2CookbookCover from "../public/assets/images/angular-2-cookbook.webp";
 import angularCookbookCover from "../public/assets/images/angularjs-web-application-development-cookbook.webp";
-import buildingBrowserExtensionsCover from "../public/assets/images/bbx_cover_resized.jpg";
+import buildingBrowserExtensions2edCover from "../public/assets/images/building-browser-extensions-2ed.webp";
+import buildingBrowserExtensionsCover from "../public/assets/images/building-browser-extensions.webp";
 import introductionToModernClientSideProgrammingCover from "../public/assets/images/introduction-to-modern-client-side-programming.webp";
 import learningAngularjsCover from "../public/assets/images/learning-angularjs.webp";
 import maintainingWebApplicationsCover from "../public/assets/images/maintaining-web-applications.webp";
@@ -10,6 +11,12 @@ import pjwd5eCover from "../public/assets/images/pjwd-5e.png";
 import professionalJavaScriptForWebDevelopersCover from "../public/assets/images/professional-javascript-for-web-developers-4e_resized.webp";
 
 const publications = [
+  {
+    url: "https://www.amazon.com/gp/product/B0F78Z9QC8",
+    image: buildingBrowserExtensions2edCover,
+    title: "Building Browser Extensions - 2nd edition",
+    bookClass: "tall-three-d",
+  },
   {
     url: "https://www.amazon.com/Professional-JavaScript-Developers-Matt-Frisbie/dp/1394193211",
     image: pjwd5eCover,
@@ -71,7 +78,7 @@ export default function Publications() {
 
       <h1 className="text-center text-5xl mb-16">PUBLICATIONS</h1>
 
-      <div className="flex flex-col items-center gap-20">
+      <div className="flex flex-col items-center gap-20 mt-12">
         {publications.map((publicationData) => (
           <PublicationItem
             key={publicationData.url}
